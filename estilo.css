@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    background-color: rgb(15, 15, 24);
+    margin-bottom: 0;
+}
+
+#cabeçalho{
+    border: 5px;
+    margin-right:700px;
+    padding: 50px;
+    font-size:100px;
+    font-display: block;
+    color:coral;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    max-width: 50%;
+    list-style: none;
+    margin:0;
+    padding:  auto 60px;
+    background-color:rgb(59, 57, 73);
+    border-radius: 50px;
+}
+nav ul li{
+    display: inline; 
+    
+}
+nav ul li a { 
+    color: rgb(231, 174, 94);
+    padding: 5px 30px;
+    font-size: 15px;
+    display: inline;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+nav ul li a:hover {
+    margin: auto;
+    background-color: rgb(59, 57, 73);
+}
+body{
+    background-color: rgb(15, 15, 24); 
+}
+#menuint{
+    display: inline;
+    margin: 10px;
+}
+#titulo{  
+    color:coral;
+    margin: 5px 50px;    
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+#texto {
+    text-align:justify;
+     margin: auto;
+     padding: 15px 90px; 
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+     color:beige;
+    background-color: rgb(59, 57, 73);
+    }
+
+
+
+#footer{
+    margin: 100px 2px;
+    font-size: 10px;
+    color: coral;
+    font-family:'Times New Roman', Times, serif;
+}
+#footer ul li{
+    display: inline; 
+    
+    }
+
+#footer ul li a{ }  
