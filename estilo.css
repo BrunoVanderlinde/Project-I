@@ -3,7 +3,6 @@
 
 header {
     background-color: rgb(15, 15, 24);
-    margin-bottom: 0;
 }
 
 #cabeçalho{
@@ -17,17 +16,18 @@ header {
     box-shadow: 0;
 }
 * {
-    margin: 0 auto;
+    margin:  auto;
     padding: 0;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 
 nav {
+    display: block;
     max-width: 50%;
     list-style: none;
-    margin:0;
-    padding:  auto 60px;
+    margin:20px;
+    padding:  2px 60px;
     background-color:rgb(59, 57, 73);
     border-radius: 50px;
 }
@@ -55,12 +55,11 @@ body{
     display: inline;
     margin: 10px;
 }
-#titulo{  
+#titulo {  
     color:coral;
     margin: 5px 50px;    
     font-family: 'Times New Roman', Times, serif;   
 }
-
 #texto {
     text-align:justify;
      margin: auto;
@@ -72,6 +71,44 @@ body{
     }
 
 
+form {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    width: 20em;
+    margin: 20px 100px;
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(59, 57, 73);
+}
+
+#acesso{
+    margin: 10px;
+}
+input {
+    margin: 5px 100px;
+    width: 250px;
+    padding: auto;
+}
+
+input.radio, input.submit {
+    width: auto;
+}
+
+button{
+    text-align: center;
+    padding: 2px auto ;
+    color: coral;
+    margin: 20px 10px;
+    width: auto;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #f1803e; 
+    color: white;
+}
 
 #footer{
     margin: 100px 2px;
@@ -81,7 +118,5 @@ body{
 }
 #footer ul li{
     display: inline; 
-    
     }
 
-#footer ul li a{ }  
